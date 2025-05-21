@@ -1,4 +1,4 @@
-package Notas;
+package notas;
 
 //Classe
 public class Aluno {
@@ -10,7 +10,7 @@ public class Aluno {
 	private double ntF;
 
 	// Construtor
-	public Aluno(String nome, Double nt01, Double nt02, Double nt03) {
+	public Aluno(String nome, double nt01, double nt02, double nt03) {
 		this.nome = nome;
 		this.nt01 = nt01;
 		this.nt02 = nt02;
