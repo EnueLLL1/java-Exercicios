@@ -1,4 +1,4 @@
-package Entidades;
+package entidades;
 
 //Classe
 public class Retangulo {
@@ -7,7 +7,7 @@ public class Retangulo {
 	private double base;
 
 	//Construtor
-	public Retangulo(Double tamanho, Double base) {
+	public Retangulo(double tamanho, double base) {
 		this.tamanho = tamanho;
 		this.base = base;
 	}
