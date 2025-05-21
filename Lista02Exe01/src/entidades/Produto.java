@@ -1,12 +1,12 @@
-package Entidades;
+package entidades;
 
 public class Produto {
 	private String nome;
-	private Double preco;
-	private Integer quantidade;
+	private double preco;
+	private int quantidade;
 	
 	
-	public Produto(String nome, Double preco, Integer quantidade) {
+	public Produto(String nome, double preco, int quantidade) {
 		this.nome = nome;
 		this.preco = preco;
 		this.quantidade = quantidade;
@@ -43,7 +43,7 @@ public class Produto {
 	
 	@Override
 	public String toString() {
-		return nome +", custa R$ " + preco + ", por " + quantidade + "  unidades," + " o Total é R$" + this.totalQuant()  ;
+		return nome +", custa R$ " + preco + ", por " + quantidade + " unidades, o Total é R$" + this.totalQuant()+".";
 	}
 	
 }
