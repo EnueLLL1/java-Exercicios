@@ -1,4 +1,4 @@
-package Entidades;
+package entidades;
 
 //Classes
 public class Salario {
