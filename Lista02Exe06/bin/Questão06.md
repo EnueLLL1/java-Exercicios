@@ -1,4 +1,7 @@
 # QUESTÃO 06
+
+---
+
 Em um banco, para se cadastrar uma conta bancária é necessário informar o número da conta, o nome do titular da conta e o valor de depósito inicial que o titular depositou ao abrir a conta.
 Este valor de depósito inicial, entretanto, é opcional, ou seja, se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero.
 
@@ -10,7 +13,7 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 
 ---
 
-#### Exemplo de Interação:
+## Exemplo de Interação
 
 Informe o número da conta: 8532
 Informe o nome do titular da conta: Alex Green
@@ -23,4 +26,4 @@ Dados da conta atualizados:
 Conta 8532, Nome do Titular: Alex Green, Saldo: R$ 700,00
 Informe um valor de saque: 300,00
 Dados da conta atualizados:
-Conta 8532, Nome do Titular: Alex Green, Saldo: R$ 395.00 
+Conta 8532, Nome do Titular: Alex Green, Saldo: R$ 395.00
