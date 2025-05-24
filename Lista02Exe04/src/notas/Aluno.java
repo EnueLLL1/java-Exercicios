@@ -18,6 +18,21 @@ public class Aluno {
 		this.ntF = nt01 + nt02 + nt03;
 	}
 	// Metodos
+	public String getNome() {
+		return nome;
+	}
+
+	public double getNt01() {
+		return nt01;
+	}
+	
+	public double getNt02() {
+		return nt02;
+	}
+	
+	public double getNt03() {
+		return nt03;
+	}
 
 	public String ntF() {
 		if (ntF >= 60) {

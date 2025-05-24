@@ -1,11 +1,10 @@
-
 # Exercicios Java
 
 Esse Repositorio é sobre um pouco das minhas atividades em Java
 
 ## Referência
 
- - [Lista com os Exercicios](/Lista%20Exercicios/Lista%20de%20Exercícios%20-%20POO.pdf)
+- [Lista com os Exercicios](/Lista%20Exercicios/Lista%20de%20Exercícios%20-%20POO.pdf)
 
 ## Autores
 
@@ -13,6 +12,6 @@ Esse Repositorio é sobre um pouco das minhas atividades em Java
 
 ## Orientador
 
- - [@Athur Kronbauer](https://github.com/arturKronbauer)
+- [@Athur Kronbauer](https://github.com/arturKronbauer)
 
 ## Aprendizados
