@@ -1,10 +1,10 @@
-package Banco;
+package banco;
 //Classes
 public class Contas {
 	//Atributos
-	public Integer NumC;
+	private int NumC;
 	public String Nome;
-	public Double Saldo;
+	private double Saldo;
 	//Construtores
 	
 	//Construtor sem Saldo Inicial
@@ -14,30 +14,27 @@ public class Contas {
 		this.Saldo = 0.0;
 	}
 	//Construtor com Saldo Inicial
-	public Contas(int NumC,String Nome, Double DepI) {
+	public Contas(int NumC,String Nome, double DepI) {
 		this.Nome = Nome;
 		this.NumC = NumC;
 		this.Saldo = DepI;
 	}
 	//Metodos
-	public void Nds(Double Deposito) {
+	public void saldoNovoDeposito(double Deposito) {
 		Saldo = Saldo + Deposito ;
 	}
-	public void Nss(Double Saque) {
+	public void saldoNovoSaque(double Saque) {
 		Saldo = Saldo - (Saque + 5);
 	}
     public int getNumC() {
         return NumC;
     }
-
     public String getNome() {
         return Nome;
     }
-
     public double getSaldo() {
         return Saldo;
     }
-
     public void setNomeN(String Nome) {
         this.Nome = Nome;
     }

@@ -1,31 +1,27 @@
-package Pensionato;
+package pensionato;
 
 // Classe
 public class Estudante {
 	// Atributos
 	private String nome;
-	private String e_mail;
-	private Integer numero;
+	private String email;
+	private int numero;
 // Construtor
-	public Estudante(String nome, String e_mail, Integer numero) {
-		this.e_mail = e_mail;
+	public Estudante(String nome, String email, int numero) {
+		this.email = email;
 		this.nome = nome;
 		this.numero = numero;
 	}
-	// Metodos
 
+	// Metodos
 	public String pQuarto() {
 
-		return numero + ": " + nome + ", " + e_mail;
+		return numero + ": " + nome + ", " + email;
 	}
-
 	public Integer getNumero() {
 		return numero;
 	}
-
 	public void setNumero(Integer numero) {
 		this.numero = numero;
 	}
-	
-
 }
