@@ -6,23 +6,21 @@ import entidades.Produto;
 
 public class Main {
 	public static void main(String[] args) {
+
 		Scanner leitor = new Scanner(System.in);
+		
+		System.out.print("Escrva o nome do produto: ");
+		String nome = leitor.nextLine();
 
-		String nome;
-		int quantidade;
-		double preco;
-
-		System.out.println("Escrva o nome do produto: ");
-		nome = leitor.nextLine();
-
-		System.out.println("Escreva o preço:");
-		preco = leitor.nextDouble();
+		System.out.print("Escreva o preço: ");
+		double preco = leitor.nextDouble();
 		leitor.nextLine();
 
-		System.out.println("Escreva a Quantidade");
-		quantidade = leitor.nextInt();
+		System.out.print("Escreva a Quantidade: ");
+		int quantidade = leitor.nextInt();
 		leitor.nextLine();
 
+		//Instancia a classe Produto e passa os valores para o construtor
 		Produto novoProduto = new Produto(nome, preco, quantidade);
 
 		System.out.println("Dados do Produto: " + novoProduto.toString());

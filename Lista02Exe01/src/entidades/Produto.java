@@ -39,11 +39,14 @@ public class Produto {
 		return this.quantidade * this.preco;
 	}
 
-	
-	
+	/**
+	 * Formata a string que representa o produto, com o nome, preco, quantidade e total.
+	 * 
+	 * @return String formatada com os dados do produto.
+	 */
 	@Override
 	public String toString() {
-		return nome +", custa R$ " + preco + ", por " + quantidade + " unidades, o Total é R$" + this.totalQuant()+".";
-	}
-	
+		return String.format("%s, custa R$ %.2f, por %d unidades, o Total é R$ %.2f.", 
+        nome, preco, quantidade, totalQuant());
+	}	
 }
